@@ -1,74 +1,65 @@
-body
-{
-	text-align: center;
-	font-family: sans-serif;
-	height: 100vh;
-	background-image: url("https://img.freepik.com/premium-photo/3d-rendering-dumbbells-wooden-floor-concept-fitness-room-with-training-equipments_67155-14976.jpg");
-	background-size: cover;
-	
+body {
+  text-align: center;
+  font-family: sans-serif;
+  height: 100vh;
+  background-image: url("https://img.freepik.com/premium-photo/3d-rendering-dumbbells-wooden-floor-concept-fitness-room-with-training-equipments_67155-14976.jpg");
+  background-size: cover;
 }
-div
-{
-	width: 500px;
-	position: absolute;
-	top:50%;
-	left: 50%;
-	background-color: rgba(0, 0, 0, 0.5);
-	transform: translate(-50%,-50%);
-	padding:5px;
-	box-shadow: 2px 2px 20px grey;
-}
-h2
-{
-	font-size: 30px;
-	font-weight: 600;
-	color: white;
-}
-.text
-{
-	text-align: left;
-	margin-left: 100px;
-	color: white;
-}
-#weight, #height, #height1
-{
-	color: white;
-	text-align:left;
-	font-size: 20px;
-	font-weight: 200;
-	border: 1px solid white;
-	width:300px;
-	background-color: transparent;
-	border-radius: 2px;
 
+div {
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transform: translate(-50%, -50%);
+  padding: 5px;
+  box-shadow: 2px 2px 20px grey;
 }
-#result
-{
-	color: white;
-	text-transform: capitalize;
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: white;
 }
-#result1
-{
-	color: white;
-	text-transform: capitalize;
-	font-style: italic;
+.text {
+  text-align: left;
+  margin-left: 100px;
+  color: white;
 }
-#btn
-{
-	font-size: 20px;
-	margin-top: 10px;
-	color: white;
-	border: none;
-	background-color: grey;
-	width:150px;
-	padding:10px;
-	border-radius:2px;
+#weight,
+#height,
+#height1 {
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 200;
+  border: 1px solid white;
+  width: 300px;
+  background-color: transparent;
+  border-radius: 2px;
 }
-#btn:hover
-{
-	box-shadow:1px 1px 10px blue;
+#result {
+  color: white;
+  text-transform: capitalize;
 }
-#info
-{
-	color:white;
+#result1 {
+  color: white;
+  text-transform: capitalize;
+  font-style: italic;
+}
+#btn {
+  font-size: 20px;
+  margin-top: 10px;
+  color: white;
+  border: none;
+  background-color: grey;
+  width: 150px;
+  padding: 10px;
+  border-radius: 2px;
+}
+#btn:hover {
+  box-shadow: 1px 1px 10px blue;
+}
+#info {
+  color: white;
 }

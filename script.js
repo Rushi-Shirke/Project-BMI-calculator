@@ -9,6 +9,7 @@ function bmi()
 	var bmi=(w1/(h2*h2))*703;
 	var total=bmi.toFixed(2);
 
+	
 	document.getElementById("result").innerHTML="Your BMI is "+total
 
 	if(total<16)
